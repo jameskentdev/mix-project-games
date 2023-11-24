@@ -1,6 +1,6 @@
 # Games
 
-**TODO: Add description**
+Learning Elixir using Dockyard Academy's curriculum. This repository contains the Games module as implemented as a part of the course.
 
 ## Installation
 
