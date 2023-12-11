@@ -1,4 +1,11 @@
 defmodule Games.GuessingGame do
+  @moduledoc """
+  The documentation for Games.GuessingGame.
+  """
+
+  @doc """
+  The play method which starts the GuessingGame.
+  """
   def play(answer \\ nil, attempts \\ 5) do
     answer = answer || Enum.random(1..10)
 

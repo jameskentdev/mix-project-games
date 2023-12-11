@@ -1,4 +1,12 @@
 defmodule Games.Wordle do
+  @doc """
+  The module documentation for Games.Wordle.
+  """
+
+  @doc """
+  The feedback method which parses two inputs, answer and guess, and determines
+  whether any characters in guess match the answer.
+  """
   def feedback(answer, guess) do
     split_answer = String.split(answer, "", trim: true)
     split_guess = String.split(guess, "", trim: true)

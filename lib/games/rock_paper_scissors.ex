@@ -1,4 +1,11 @@
 defmodule Games.RockPaperScissors do
+  @moduledoc """
+  The module documentation for Games.RockPaperScissors.
+  """
+
+  @doc """
+  The play method which starts the RockPaperScissors game.
+  """
   def play() do
     ai = Enum.random([:rock, :paper, :scissors])
 
